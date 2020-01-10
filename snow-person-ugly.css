@@ -1,0 +1,58 @@
+p {
+  color: green;
+  size: 12 px;
+}
+
+ol {
+  color: green;
+  font-weight: bolder;
+}
+
+ul {
+  color: purple;
+  text-decoration: overline;
+}
+
+h2,
+h3 {
+  color: red;
+}
+
+li#favorite {
+  color: red;
+}
+p.special {
+  font-style: italic;
+  color: red;
+}
+
+ol > li {
+  font-style: italic;
+}
+
+ol > li + li {
+  color: red;
+}
+
+div {
+  background: yellow;
+  filter: sepia(60%);
+}
+
+div:hover {
+  filter: sepia(0);
+}
+
+ul::first-line {
+  font-size: 20px;
+}
+ol::first-line {
+  font-size: 20px;
+}
+p::first-letter {
+  font-size: 25px;
+}
+
+h1:hover {
+  transform: rotate(0.5turn);
+}
