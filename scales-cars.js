@@ -11,12 +11,12 @@ d3.select("svg#cars-scatter")
 let dispScale = d3
   .scaleLinear()
   .domain(d3.extent(cars.map(d => d.disp)))
-  .range([0, 350]);
+  .range([50, 350]);
 
 let mpgScale = d3
   .scaleLinear()
   .domain(d3.extent(cars.map(d => d.mpg)))
-  .range([0, 500]);
+  .range([300, 50]);
 
 let dotScale = d3
   .scaleSqrt()
